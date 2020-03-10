@@ -19,35 +19,35 @@ const BadgeWrapper = styled.div`
     margin-top: -2px;
   }
 
-  ${props =>
+  ${(props: any) =>
     props.status === 'positive' &&
     css`
       color: ${color.positive};
       background: ${background.positive};
     `};
 
-  ${props =>
+  ${(props: any) =>
     props.status === 'negative' &&
     css`
       color: ${color.negative};
       background: ${background.negative};
     `};
 
-  ${props =>
+  ${(props: any) =>
     props.status === 'warning' &&
     css`
       color: ${color.warning};
       background: ${background.warning};
     `};
 
-  ${props =>
+  ${(props: any) =>
     props.status === 'error' &&
     css`
       color: ${color.lightest};
       background: ${color.negative};
     `};
 
-  ${props =>
+  ${(props: any) =>
     props.status === 'neutral' &&
     css`
       color: ${color.dark};
@@ -62,7 +62,13 @@ export function Badge({ ...props }) {
   return <BadgeWrapper {...props} />;
 }
 Badge.propTypes = {
-  status: PropTypes.oneOf(['positive', 'negative', 'neutral', 'error', 'warning']),
+  status: PropTypes.oneOf([
+    'positive',
+    'negative',
+    'neutral',
+    'error',
+    'warning',
+  ]),
 };
 
 Badge.defaultProps = {
