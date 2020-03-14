@@ -33,3 +33,11 @@
 #### Authors: 1
 
 - John
+
+# v0.1.7 (Sat Mar 14 2020)
+
+- fix tsconfig again
+
+#### Authors: 1
+
+- John
