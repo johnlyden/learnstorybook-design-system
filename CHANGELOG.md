@@ -5,3 +5,11 @@
 #### Authors: 1
 
 - Tom Coleman ([@tmeasday](https://github.com/tmeasday))
+
+# v0.1.4 (Sat Mar 14 2020)
+
+- compile js and ts files
+
+#### Authors: 1
+
+- John
