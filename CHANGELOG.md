@@ -13,3 +13,11 @@
 #### Authors: 1
 
 - John
+
+# v0.1.6 (Sat Mar 14 2020)
+
+- fix tsconfig to bundle package correctly
+
+#### Authors: 1
+
+- John
