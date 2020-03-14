@@ -60,7 +60,3 @@ const BadgeWrapper = styled.div`
 export function Badge({ ...props }) {
   return <BadgeWrapper {...props} />;
 }
-
-Badge.defaultProps = {
-  status: 'neutral',
-};
