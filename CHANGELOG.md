@@ -1,3 +1,19 @@
+# v0.1.7 (Sat Mar 14 2020)
+
+#### ⚠️  Pushed to `master`
+
+- fix tsconfig (johnlydennc@gmail.com)
+- fix tsconfig ([@johnlyden](https://github.com/johnlyden))
+- Merge branch 'master' of github.com:johnlyden/learnstorybook-design-system ([@johnlyden](https://github.com/johnlyden))
+- remove defaultProp ([@johnlyden](https://github.com/johnlyden))
+
+#### Authors: 2
+
+- John Lyden ([@johnlyden](https://github.com/johnlyden))
+- johnlyden (johnlydennc@gmail.com)
+
+---
+
 # v0.1.5 (Sat Mar 14 2020)
 
 #### 🐛 Bug Fix
