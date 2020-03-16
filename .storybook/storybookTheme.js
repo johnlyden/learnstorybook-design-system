@@ -1,5 +1,4 @@
 import { create } from '@storybook/theming/create';
-
 const green1 = '#4ba373';
 const silver = '#bbbbbb';
 const alto = '#dddddd';
