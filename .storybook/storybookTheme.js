@@ -1,5 +1,4 @@
 import { create } from '@storybook/theming/create';
-// import logo from './ew-storybook-logo.png';
 const green1 = '#4ba373';
 const silver = '#bbbbbb';
 const alto = '#dddddd';
@@ -41,5 +40,6 @@ export default create({
 
   brandTitle: 'My custom storybook',
   brandUrl: 'https://example.com',
-  brandImage: 'https://placehold.it/350x150',
+  brandImage:
+    'https://www.everlywell.com/images/logos/2019-rebrand/everlywell-logo-e3288d32.svg',
 });
