@@ -38,8 +38,8 @@ export default create({
   inputTextColor: swamp,
   inputBorderRadius: 4,
 
-  brandTitle: 'My custom storybook',
-  brandUrl: 'https://example.com',
+  brandTitle: 'Everlywell Design Language System',
+  brandUrl: 'https://www.everlywell.com',
   brandImage:
     'https://www.everlywell.com/images/logos/2019-rebrand/everlywell-logo-e3288d32.svg',
 });
