@@ -1,3 +1,18 @@
+# v0.1.8 (Sun Mar 15 2020)
+
+#### ⚠️  Pushed to `master`
+
+- updat test script - update es2015 module ([@johnlyden](https://github.com/johnlyden))
+- update import - add dark theme ([@johnlyden](https://github.com/johnlyden))
+- hey ([@johnlyden](https://github.com/johnlyden))
+- version ([@johnlyden](https://github.com/johnlyden))
+
+#### Authors: 1
+
+- John Lyden ([@johnlyden](https://github.com/johnlyden))
+
+---
+
 # v0.1.7 (Sat Mar 14 2020)
 
 #### ⚠️  Pushed to `master`
