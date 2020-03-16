@@ -17,11 +17,16 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "tsc --skipLibCheck",
-    "test": "react-scripts test",
+    "test": "jest",
     "eject": "react-scripts eject",
     "release": "auto shipit",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "./dist/"
+    ]
   },
   "babel": {
     "presets": [
