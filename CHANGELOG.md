@@ -1,6 +1,6 @@
 # v0.1.8 (Sun Mar 15 2020)
 
-#### ⚠️  Pushed to `master`
+#### ⚠️ Pushed to `master`
 
 - updat test script - update es2015 module ([@johnlyden](https://github.com/johnlyden))
 - update import - add dark theme ([@johnlyden](https://github.com/johnlyden))
@@ -15,7 +15,7 @@
 
 # v0.1.8 (Sun Mar 15 2020)
 
-#### ⚠️  Pushed to `master`
+#### ⚠️ Pushed to `master`
 
 - updat test script - update es2015 module ([@johnlyden](https://github.com/johnlyden))
 - update import - add dark theme ([@johnlyden](https://github.com/johnlyden))
@@ -30,7 +30,7 @@
 
 # v0.1.7 (Sat Mar 14 2020)
 
-#### ⚠️  Pushed to `master`
+#### ⚠️ Pushed to `master`
 
 - fix tsconfig (johnlydennc@gmail.com)
 - fix tsconfig ([@johnlyden](https://github.com/johnlyden))
@@ -83,6 +83,14 @@
 # v0.1.7 (Sat Mar 14 2020)
 
 - fix tsconfig again
+
+#### Authors: 1
+
+- John
+
+# v0.1.8 (Sun Mar 15 2020)
+
+- fix testing and tsconfig
 
 #### Authors: 1
 
