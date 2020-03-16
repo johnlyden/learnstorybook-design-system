@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import styled, { css } from 'styled-components';
 import { background, color, typography } from '../shared/styles';
 
@@ -60,3 +60,5 @@ const BadgeWrapper = styled.div`
 export function Badge({ ...props }) {
   return <BadgeWrapper {...props} />;
 }
+
+export default Badge;
