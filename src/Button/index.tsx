@@ -324,6 +324,34 @@ const applyStyle = ButtonWrapper => {
   );
 };
 
+interface Props {
+  isLoading?: boolean;
+  /**
+   When a button is in the loading state you can supply custom text
+  */
+  loadingText?: any; // TODO: a node element
+  /**
+   Buttons that have hrefs should use <a> instead of <button>
+  */
+  isLink?: boolean;
+  children: any;
+  appearance?: string;
+  isDisabled?: boolean;
+  /**
+   Prevents users from clicking on a button multiple times (for things like payment forms)
+  */
+  isUnclickable?: boolean;
+  /**
+   Buttons with icons by themselves have a circular shape
+  */
+  containsIcon?: boolean;
+  size: string;
+  ButtonWrapper?: any;
+}
+/**
+ * **Badges?!** We don't need no stinkin' badges!!
+ */
+
 export function Button({
   isDisabled,
   isLoading,
@@ -332,7 +360,7 @@ export function Button({
   children,
   ButtonWrapper,
   ...props
-}) {
+}: Props) {
   const buttonInner = (
     <Fragment>
       <Text>{children}</Text>
@@ -359,39 +387,3 @@ export function Button({
 }
 
 export default Button;
-// Button.propTypes = {
-//   isLoading: PropTypes.bool,
-//   /**
-//    When a button is in the loading state you can supply custom text
-//   */
-//   loadingText: PropTypes.node,
-//   /**
-//    Buttons that have hrefs should use <a> instead of <button>
-//   */
-//   isLink: PropTypes.bool,
-//   children: PropTypes.node.isRequired,
-//   appearance: PropTypes.oneOf(Object.values(APPEARANCES)),
-//   isDisabled: PropTypes.bool,
-//   /**
-//    Prevents users from clicking on a button multiple times (for things like payment forms)
-//   */
-//   isUnclickable: PropTypes.bool,
-//   /**
-//    Buttons with icons by themselves have a circular shape
-//   */
-//   containsIcon: PropTypes.bool,
-//   size: PropTypes.oneOf(Object.values(SIZES)),
-//   ButtonWrapper: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
-// };
-
-// Button.defaultProps = {
-//   isLoading: false,
-//   loadingText: null,
-//   isLink: false,
-//   appearance: APPEARANCES.TERTIARY,
-//   isDisabled: false,
-//   isUnclickable: false,
-//   containsIcon: false,
-//   size: SIZES.MEDIUM,
-//   ButtonWrapper: undefined,
-// };
