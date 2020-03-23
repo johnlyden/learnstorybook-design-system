@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import styled from 'styled-components';
-import { darken, rgba } from 'polished';
+import { rgba } from 'polished';
 import { color, typography } from '../shared/styles';
 import { easing } from '../shared/animation';
 
@@ -19,11 +19,7 @@ const Loading = styled.span`
 
 const APPEARANCES = {
   PRIMARY: 'primary',
-  PRIMARY_OUTLINE: 'primaryOutline',
   SECONDARY: 'secondary',
-  SECONDARY_OUTLINE: 'secondaryOutline',
-  TERTIARY: 'tertiary',
-  OUTLINE: 'outline',
 };
 
 const SIZES = {
@@ -42,7 +38,6 @@ const StyledButton = styled.button`
   text-align: center;
   text-decoration: none;
   transition: all 150ms ease-out;
-  transform: translate3d(0,0,0);
   vertical-align: top;
   white-space: nowrap;
   user-select: none;
@@ -53,14 +48,13 @@ const StyledButton = styled.button`
 
   font-size: ${props =>
     props.size === SIZES.SMALL ? typography.size.s1 : typography.size._s1}px;
-  font-weight: ${typography.weight.extrabold};
-  line-height: 1;
+  font-family: ${typography.type.bold};
+  line-height: 1.5;
 
   ${props =>
     !props.isLoading &&
     `
       &:hover {
-        transform: translate3d(0, -2px, 0);
         box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
       }
 
@@ -160,7 +154,7 @@ const StyledButton = styled.button`
       ${!props.isLoading &&
         `
           &:hover {
-            background: ${darken(0.05, color.primary)};
+            background: ${color.secondary};
           }
           &:active {
             box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 3em inset;
@@ -177,138 +171,36 @@ const StyledButton = styled.button`
   ${props =>
     props.appearance === APPEARANCES.SECONDARY &&
     `
-      background: ${color.secondary};
-      color: ${color.lightest};
-
-      ${!props.isLoading &&
-        `
-          &:hover {
-            background: ${darken(0.05, color.secondary)};
-          }
-          &:active {
-            box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 3em inset;
-          }
-          &:focus {
-            box-shadow: ${rgba(color.secondary, 0.4)} 0 1px 9px 2px;
-          }
-          &:focus:hover {
-            box-shadow: ${rgba(color.secondary, 0.2)} 0 8px 18px 0px;
-          }
-        `}
-    `}
-
-  ${props =>
-    props.appearance === APPEARANCES.TERTIARY &&
-    `
-      background: ${color.tertiary};
-      color: ${color.darkest};
-
-      ${!props.isLoading &&
-        `
-          &:hover {
-            background: ${darken(0.05, color.tertiary)};
-          }
-          &:active {
-            box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 3em inset;
-          }
-          &:focus {
-            box-shadow: ${rgba(color.tertiary, 0.4)} 0 1px 9px 2px;
-          }
-          &:focus:hover {
-            box-shadow: ${rgba(color.tertiary, 0.2)} 0 8px 18px 0px;
-          }
-        `}
-    `}
-
-  ${props =>
-    props.appearance === APPEARANCES.OUTLINE &&
-    `
-      box-shadow: ${color.medium} 0 0 0 1px inset;
-      color: ${color.dark};
+      box-shadow: ${color.primary} 0 0 0 1.5px inset;
+      color: ${color.primary};
       background: transparent;
 
       ${!props.isLoading &&
         `
           &:hover {
-            box-shadow: ${color.mediumdark} 0 0 0 1px inset;
+            box-shadow: ${color.secondary} 0 0 0 1.5px inset;
+            color: ${color.secondary};
           }
 
           &:active {
-            background: ${color.medium};
-            box-shadow: ${color.medium} 0 0 0 1px inset;
-            color: ${color.darkest};
+            background: ${color.lightest};
+            box-shadow: ${color.secondary} 0 0 0 1.5px inset;
+            color: ${color.secondary};
           }
           &:focus {
-            box-shadow: ${color.medium} 0 0 0 1px inset, ${rgba(
+            box-shadow: ${color.medium} 0 0 0 1.5px inset, ${rgba(
           color.secondary,
           0.4,
         )} 0 1px 9px 2px;
           }
           &:focus:hover {
-            box-shadow: ${color.medium} 0 0 0 1px inset, ${rgba(
+            box-shadow: ${color.medium} 0 0 0 1.5px inset, ${rgba(
           color.secondary,
           0.2,
         )} 0 8px 18px 0px;
           }
         `};
-    `};
-
-    ${props =>
-      props.appearance === APPEARANCES.PRIMARY_OUTLINE &&
-      `
-        box-shadow: ${color.primary} 0 0 0 1px inset;
-        color: ${color.primary};
-
-        &:hover {
-          box-shadow: ${color.primary} 0 0 0 1px inset;
-          background: transparent;
-        }
-
-        &:active {
-          background: ${color.primary};
-          box-shadow: ${color.primary} 0 0 0 1px inset;
-          color: ${color.lightest};
-        }
-        &:focus {
-          box-shadow: ${color.primary} 0 0 0 1px inset, ${rgba(
-        color.primary,
-        0.4,
-      )} 0 1px 9px 2px;
-        }
-        &:focus:hover {
-          box-shadow: ${color.primary} 0 0 0 1px inset, ${rgba(
-        color.primary,
-        0.2,
-      )} 0 8px 18px 0px;
-        }
-      `};
-
-    ${props =>
-      props.appearance === APPEARANCES.SECONDARY_OUTLINE &&
-      `
-        box-shadow: ${color.secondary} 0 0 0 1px inset;
-        color: ${color.secondary};
-
-        &:hover {
-          box-shadow: ${color.secondary} 0 0 0 1px inset;
-          background: transparent;
-        }
-
-        &:active {
-          background: ${color.secondary};
-          box-shadow: ${color.secondary} 0 0 0 1px inset;
-          color: ${color.lightest};
-        }
-        &:focus {
-          box-shadow: ${color.secondary} 0 0 0 1px inset,
-            ${rgba(color.secondary, 0.4)} 0 1px 9px 2px;
-        }
-        &:focus:hover {
-          box-shadow: ${color.secondary} 0 0 0 1px inset,
-            ${rgba(color.secondary, 0.2)} 0 8px 18px 0px;
-        }
-      `};
-
+    `}
 `;
 
 const ButtonLink = StyledButton.withComponent('a');

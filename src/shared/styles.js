@@ -56,6 +56,7 @@ export const spacing = {
 export const typography = {
   type: {
     primary: '"Nexa-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif',
+    bold: '"Nexa-Bold"',
     code:
       '"SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace',
   },
