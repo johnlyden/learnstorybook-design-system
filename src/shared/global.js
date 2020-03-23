@@ -1,5 +1,9 @@
 import { createGlobalStyle, css } from 'styled-components';
 import { color, typography } from './styles';
+import NexaRegular from './fonts/Nexa-Regular.otf';
+import NexaBold from './fonts/Nexa-Bold.otf';
+import NexaLight from './fonts/Nexa-Light.otf';
+import NexaRegularItalic from './fonts/Nexa-Regular-Italic.otf';
 
 export const bodyStyles = css`
   font-family: ${typography.type.primary};
@@ -112,7 +116,23 @@ export const bodyStyles = css`
 `;
 
 export const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800,900');
+  /* @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800,900'); */
+  @font-face {
+    font-family: 'Nexa-Regular';
+    src: url('${NexaRegular}') format('opentype');
+  }
+  @font-face {
+    font-family: 'Nexa-Bold';
+    src: url('${NexaBold}') format('opentype');
+  }
+  @font-face {
+    font-family: 'Nexa-Light';
+    src: url('${NexaLight}') format('opentype');
+  }
+  @font-face {
+    font-family: 'Nexa-Regular-Italic';
+    src: url('${NexaRegularItalic}') format('opentype');
+  }
 
   body {
     ${bodyStyles}
