@@ -11,8 +11,8 @@ export const background = {
 
 export const color = {
   // Palette
-  primary: '#FF4785', // coral
-  secondary: '#1EA7FD', // ocean
+  primary: '#4ba373', // green1
+  secondary: '#008b84', // ocean
   tertiary: '#DDDDDD',
 
   orange: '#FC521F',
@@ -55,7 +55,7 @@ export const spacing = {
 
 export const typography = {
   type: {
-    primary: '"Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif',
+    primary: '"Nexa-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif',
     code:
       '"SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace',
   },
@@ -76,6 +76,7 @@ export const typography = {
     l2: '40',
     l3: '48',
     code: '90',
+    _s1: '18.7',
   },
 };
 

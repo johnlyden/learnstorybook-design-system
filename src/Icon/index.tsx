@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { icons } from '../shared/icons';
 
@@ -36,11 +35,11 @@ export function Icon({ icon, block, ...props }) {
   );
 }
 
-Icon.propTypes = {
-  icon: PropTypes.string.isRequired,
-  block: PropTypes.bool,
-};
+// Icon.propTypes = {
+//   icon: PropTypes.string.isRequired,
+//   block: PropTypes.bool,
+// };
 
-Icon.defaultProps = {
-  block: false,
-};
+// Icon.defaultProps = {
+//   block: false,
+// };

@@ -33,11 +33,11 @@ const SIZES = {
 
 const StyledButton = styled.button`
   border: 0;
-  border-radius: 3em;
+  border-radius: 24px;
   cursor: pointer;
   display: inline-block;
   overflow: hidden;
-  padding: ${props => (props.size === SIZES.SMALL ? '8px 16px' : '13px 20px')};
+  padding: ${props => (props.size === SIZES.SMALL ? '8px 16px' : '10px 21px')};
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -52,7 +52,7 @@ const StyledButton = styled.button`
 
 
   font-size: ${props =>
-    props.size === SIZES.SMALL ? typography.size.s1 : typography.size.s2}px;
+    props.size === SIZES.SMALL ? typography.size.s1 : typography.size._s1}px;
   font-weight: ${typography.weight.extrabold};
   line-height: 1;
 
