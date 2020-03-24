@@ -1,4 +1,5 @@
 import { create } from '@storybook/theming/create';
+
 const green1 = '#4ba373';
 const silver = '#bbbbbb';
 const alto = '#dddddd';
@@ -20,7 +21,7 @@ export default create({
   appBorderRadius: 4,
 
   // Typography
-  fontBase: '"Open Sans", sans-serif',
+  fontBase: '"Nexa-Bold", sans-serif',
   fontCode: 'monospace',
 
   // Text colors
