@@ -65,9 +65,6 @@
   },
   "description": "Learning design system",
   "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
   "repository": "git@github.com:johnlyden/learnstorybook-design-system.git",
   "author": "johnlyden <johnlydennc@gmail.com>",
   "license": "MIT"
