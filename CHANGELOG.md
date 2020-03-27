@@ -1,3 +1,15 @@
+# v0.1.18 (Fri Mar 27 2020)
+
+#### 🐛 Bug Fix
+
+- remove files [#18](https://github.com/johnlyden/learnstorybook-design-system/pull/18) ([@johnlyden](https://github.com/johnlyden))
+
+#### Authors: 1
+
+- John Lyden ([@johnlyden](https://github.com/johnlyden))
+
+---
+
 # v0.1.17 (Fri Mar 27 2020)
 
 #### 🐛 Bug Fix
