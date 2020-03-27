@@ -64,6 +64,9 @@
     "prettier": "^1.19.1"
   },
   "description": "Learning design system",
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "repository": "git@github.com:johnlyden/learnstorybook-design-system.git",
   "author": "johnlyden <johnlydennc@gmail.com>",
