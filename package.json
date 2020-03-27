@@ -19,7 +19,7 @@
     "build": "tsc --skipLibCheck",
     "test": "jest",
     "eject": "react-scripts eject",
-    "release": "build && cd auto shipit --verbose",
+    "release": "auto shipit --verbose",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
   },
