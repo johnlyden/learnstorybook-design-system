@@ -1,10 +1,10 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import { Badge } from './';
+import { Button } from './';
 
-describe('Badge', () => {
+describe('Button', () => {
   it('should render', () => {
-    render(<Badge />);
+    render(<Button />);
   });
 });

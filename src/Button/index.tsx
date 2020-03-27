@@ -241,7 +241,7 @@ interface Props {
   ButtonWrapper?: any;
 }
 /**
- * **Badges?!** We don't need no stinkin' badges!!
+ * **This here is a button
  */
 
 export function Button({
