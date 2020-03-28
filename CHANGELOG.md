@@ -1,3 +1,18 @@
+# v0.1.20 (Sat Mar 28 2020)
+
+#### 🐛 Bug Fix
+
+- again [#23](https://github.com/johnlyden/learnstorybook-design-system/pull/23) ([@johnlyden](https://github.com/johnlyden))
+- plock [#22](https://github.com/johnlyden/learnstorybook-design-system/pull/22) ([@johnlyden](https://github.com/johnlyden))
+- move buid [#21](https://github.com/johnlyden/learnstorybook-design-system/pull/21) ([@johnlyden](https://github.com/johnlyden))
+- add cpx - cop fopy fonts into package [#20](https://github.com/johnlyden/learnstorybook-design-system/pull/20) ([@johnlyden](https://github.com/johnlyden))
+
+#### Authors: 1
+
+- John Lyden ([@johnlyden](https://github.com/johnlyden))
+
+---
+
 # v0.1.19 (Fri Mar 27 2020)
 
 #### 🐛 Bug Fix
