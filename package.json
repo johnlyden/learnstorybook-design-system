@@ -21,7 +21,7 @@
     "copy-woff2-to-lib": "cpx \"./src/**/*.otf\" ./dist/shared/fonts",
     "test": "jest",
     "eject": "react-scripts eject",
-    "release": "auto shipit --verbose",
+    "release": "yarn build && auto shipit --verbose",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
   },
