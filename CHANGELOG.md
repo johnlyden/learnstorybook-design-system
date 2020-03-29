@@ -1,3 +1,15 @@
+# v0.1.25 (Sun Mar 29 2020)
+
+#### 🐛 Bug Fix
+
+- add other back up fonts [#28](https://github.com/johnlyden/learnstorybook-design-system/pull/28) ([@johnlyden](https://github.com/johnlyden))
+
+#### Authors: 1
+
+- John Lyden ([@johnlyden](https://github.com/johnlyden))
+
+---
+
 # v0.1.24 (Sun Mar 29 2020)
 
 #### 🐛 Bug Fix
