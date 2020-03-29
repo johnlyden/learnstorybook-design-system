@@ -132,7 +132,6 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Nexa-Regular-Italic';
     src: url('${NexaRegularItalic}') format('opentype');
   }
-
   body {
     ${bodyStyles}
 
