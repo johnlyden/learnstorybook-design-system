@@ -1,3 +1,15 @@
+# v0.1.21 (Sun Mar 29 2020)
+
+#### 🐛 Bug Fix
+
+- add markdown story [#24](https://github.com/johnlyden/learnstorybook-design-system/pull/24) ([@johnlyden](https://github.com/johnlyden))
+
+#### Authors: 1
+
+- John Lyden ([@johnlyden](https://github.com/johnlyden))
+
+---
+
 # v0.1.20 (Sat Mar 28 2020)
 
 #### 🐛 Bug Fix
