@@ -9,7 +9,7 @@ module.exports = function({ config }) {
   );
 
   config.module.rules.push({
-    test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+    test: /\.(png|woff|woff2|eot|ttf|svg|otf)$/,
     use: [
       {
         loader: 'file-loader',

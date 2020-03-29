@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "tsc --skipLibCheck && yarn copy-woff2-to-lib",
-    "copy-woff2-to-lib": "cpx \"./src/**/*.otf\" ./dist/shared/fonts",
+    "copy-woff2-to-lib": "cpx \"./src/**/*.otf\" ./dist/shared/fonts/",
     "test": "jest",
     "eject": "react-scripts eject",
     "release": "yarn build && auto shipit --verbose",
