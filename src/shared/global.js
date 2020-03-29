@@ -116,7 +116,6 @@ export const bodyStyles = css`
 `;
 
 export const GlobalStyle = createGlobalStyle`
-  /* @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800,900'); */
   @font-face {
     font-family: 'Nexa-Regular';
     src: url('${NexaRegular}') format('opentype');
