@@ -1,3 +1,15 @@
+# v0.1.24 (Sun Mar 29 2020)
+
+#### 🐛 Bug Fix
+
+- fix icon export [#27](https://github.com/johnlyden/learnstorybook-design-system/pull/27) ([@johnlyden](https://github.com/johnlyden))
+
+#### Authors: 1
+
+- John Lyden ([@johnlyden](https://github.com/johnlyden))
+
+---
+
 # v0.1.23 (Sun Mar 29 2020)
 
 #### 🐛 Bug Fix
