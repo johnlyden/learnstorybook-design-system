@@ -1,3 +1,15 @@
+# v0.1.22 (Sun Mar 29 2020)
+
+#### 🐛 Bug Fix
+
+- adding font configs [#25](https://github.com/johnlyden/learnstorybook-design-system/pull/25) ([@johnlyden](https://github.com/johnlyden))
+
+#### Authors: 1
+
+- John Lyden ([@johnlyden](https://github.com/johnlyden))
+
+---
+
 # v0.1.21 (Sun Mar 29 2020)
 
 #### 🐛 Bug Fix
