@@ -16,7 +16,7 @@ addDecorator(story => (
 addParameters({
   options: {
     storySort: (a, b) => {
-      console.log(a);
+      // console.log(a);
       return a[1].kind === b[1].kind
         ? 0
         : a[1].id.localeCompare(b[1].id, undefined, { numeric: true });
