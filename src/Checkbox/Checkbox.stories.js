@@ -6,7 +6,7 @@ import { Checkbox } from './';
 const onChange = action('change');
 
 export default {
-  title: 'Design System|Checkbox',
+  title: 'Components|Checkbox',
   component: Checkbox,
 };
 
