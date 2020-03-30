@@ -1,3 +1,15 @@
+# v0.1.26 (Mon Mar 30 2020)
+
+#### 🐛 Bug Fix
+
+- add some other pages - organize [#29](https://github.com/johnlyden/learnstorybook-design-system/pull/29) ([@johnlyden](https://github.com/johnlyden))
+
+#### Authors: 1
+
+- John Lyden ([@johnlyden](https://github.com/johnlyden))
+
+---
+
 # v0.1.25 (Sun Mar 29 2020)
 
 #### 🐛 Bug Fix
