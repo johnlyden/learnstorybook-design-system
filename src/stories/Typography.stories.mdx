@@ -2,15 +2,11 @@ import { Meta, Typeset } from '@storybook/addon-docs/blocks';
 
 import { typography } from '../shared/styles';
 
-<Meta title="Design System|3-Typography" />
+<Meta title='Design System|3-Typography' />
 
 # Typography
 
-**Font:** Nexa
-
-**Weights:** 200(light), 400(regular), 700(bold), 800(x-bold), 900(heavy)
-
-**TODO: We need to define what these typography styles are**
+**Font:** Nexa-Regular
 
 <Typeset
   fontSizes={[
@@ -24,5 +20,39 @@ import { typography } from '../shared/styles';
     Number(typography.size.l2),
     Number(typography.size.l3),
   ]}
-  fontWeight={typography.weight.black}
+  fontFamily={typography.type.primary}
+/>
+
+**Font:** Nexa-Bold
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.s1),
+    Number(typography.size.s2),
+    Number(typography.size.s3),
+    Number(typography.size.m1),
+    Number(typography.size.m2),
+    Number(typography.size.m3),
+    Number(typography.size.l1),
+    Number(typography.size.l2),
+    Number(typography.size.l3),
+  ]}
+  fontFamily={typography.type.bold}
+/>
+
+**Font:** Nexa-Light
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.s1),
+    Number(typography.size.s2),
+    Number(typography.size.s3),
+    Number(typography.size.m1),
+    Number(typography.size.m2),
+    Number(typography.size.m3),
+    Number(typography.size.l1),
+    Number(typography.size.l2),
+    Number(typography.size.l3),
+  ]}
+  fontFamily={typography.type.light}
 />
