@@ -43,6 +43,9 @@ export const color = {
   // links
   william: '#406566',
   cobalt: '#006298',
+  activeBlue: '#0083cc',
+  focusBlue: '#00314d',
+  manatee: '#919193',
 };
 
 export const spacing = {
