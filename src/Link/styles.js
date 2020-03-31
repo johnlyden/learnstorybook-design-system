@@ -5,16 +5,23 @@ const linkStyles = css`
   display: inline-block;
   transition: transform 150ms ease-out, color 150ms ease-out;
   text-decoration: none;
-  color: ${color.william};
+  color: ${color.cobalt};
   &:hover,
   &:focus {
     cursor: pointer;
     transform: translateY(-1px);
-    color: ${color.cobalt};
+    color: ${color.activeBlue};
+    text-decoration: underline;
+  }
+  &:focus {
+    color: ${color.focusBlue};
   }
   &:active {
     transform: translateY(0);
-    color: ${color.secondary};
+    color: ${color.activeBlue};
+  }
+  &:disabled {
+    color: ${color.manatee};
   }
   svg {
     display: inline-block;
