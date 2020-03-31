@@ -1,3 +1,15 @@
+# v0.1.30 (Tue Mar 31 2020)
+
+#### 🐛 Bug Fix
+
+- Export link [#33](https://github.com/johnlyden/learnstorybook-design-system/pull/33) ([@johnlyden](https://github.com/johnlyden))
+
+#### Authors: 1
+
+- John Lyden ([@johnlyden](https://github.com/johnlyden))
+
+---
+
 # v0.1.29 (Tue Mar 31 2020)
 
 #### 🐛 Bug Fix
