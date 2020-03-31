@@ -30,8 +30,11 @@ export const allButtons = () => (
     <Button appearance='primary' isDisabled>
       Disabled
     </Button>
+    <Button appearance='secondary' isDisabled>
+      Disabled
+    </Button>
     <br />
-    <Button appearance='primary' isLoading>
+    <Button appearance='primary' isLoading loadingText='loadin..'>
       Primary
     </Button>
     <Button appearance='secondary' isLoading>

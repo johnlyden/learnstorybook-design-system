@@ -39,6 +39,10 @@ export const color = {
   positive: '#66BF3C',
   negative: '#FF4400',
   warning: '#E69D00',
+
+  // links
+  william: '#406566',
+  cobalt: '#006298',
 };
 
 export const spacing = {
@@ -56,7 +60,10 @@ export const spacing = {
 export const typography = {
   type: {
     primary: '"Nexa-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif',
-    bold: 'Nexa-Bold, Apple Chancery, cursive',
+    bold: '"Nexa-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif',
+    light: '"Nexa-Light", "Helvetica Neue", Helvetica, Arial, sans-serif',
+    regularItalic:
+      '"Nexa-Regular-Italic", "Helvetica Neue", Helvetica, Arial, sans-serif',
     code:
       '"SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace',
   },
