@@ -1,3 +1,15 @@
+# v0.1.33 (Tue Mar 31 2020)
+
+#### 🐛 Bug Fix
+
+- update primary color to purple [#36](https://github.com/johnlyden/learnstorybook-design-system/pull/36) ([@johnlyden](https://github.com/johnlyden))
+
+#### Authors: 1
+
+- John Lyden ([@johnlyden](https://github.com/johnlyden))
+
+---
+
 # v0.1.32 (Tue Mar 31 2020)
 
 #### 🐛 Bug Fix
