@@ -1,3 +1,15 @@
+# v0.1.32 (Tue Mar 31 2020)
+
+#### 🐛 Bug Fix
+
+- add back default button color" [#35](https://github.com/johnlyden/learnstorybook-design-system/pull/35) ([@johnlyden](https://github.com/johnlyden))
+
+#### Authors: 1
+
+- John Lyden ([@johnlyden](https://github.com/johnlyden))
+
+---
+
 # v0.1.31 (Tue Mar 31 2020)
 
 #### 🐛 Bug Fix
