@@ -7,3 +7,4 @@ export { styles, global, animation, icons };
 
 export * from './Button';
 export * from './Icon';
+export * from './Link';
